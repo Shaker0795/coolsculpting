@@ -6,8 +6,7 @@ html {
 
 
 body {
-    background-attachment: fixed;
-	background-image: url(woman_4.jpg);
+  	background-image: url(woman_2.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 
@@ -19,11 +18,14 @@ body {
 	
 	 background-color: rgba(0, 0, 0, 0.4);
 	 border: rgba(0, 0, 0, 0.4);
+	 transition: all 1.0s ease 0s;
+	
 }
 
 .navbar.navbar-default:hover {
 	 background-color:rgba(0, 0, 0, 1.0);
 	 border: rgba(0, 0, 0, 1.0);
+	  
 }
 
 
@@ -34,6 +36,7 @@ body {
 	 padding-left: 100px;
 	color: rgba(255, 255, 255, 0.4);
 	font-family: bold;
+	transition: all 0.9s ease 0s;
 	
 }
 
@@ -59,11 +62,118 @@ body {
 .icon > a {
 	padding: 10px;
 	opacity: 0.4;
+	transition: all 0.9s ease 0s;
 }
 
 #navbar_element:hover > ul > li > .icon > a {
 	
 	opacity: 1.0;
+	
 }
+
+
+#twitter:hover {
+	background-color: #1DA1F2;
+}
+
+
+#facebook:hover {
+	background-color:  #3b5998;
+}
+
+
+#flicker:hover {
+	background-color:  #ff0084;
+}
+
+#google:hover {
+
+	background-color:#f4c20d;
+}
+/*
+
+*/
+
+
+.container-fluid-1stBox {
+
+    
+	 margin-top: 666px;
+	 padding: 30px
+	
+}
+
+.container-fluid-1stBox > .row > .col-lg-7 > p {
+	
+	color:  #0288d1;
+	font-weight: 80px;
+	font-family: bold;
+	font-size: 20px;
+	margin-left: 90px;
+	margin-top: 25px;
+	
+}
+
+.container-fluid-2ndBox {
+	
+	padding-bottom: 25px;
+	background-color: #4fc3f7 ;
+
+	 
+	
+
+}
+
+.container-fluid-2ndBox > .row {
+
+    background-image:url(trans.png);
+	background-size: 80% 100%;
+    background-position: right;
+	background-repeat: no-repeat;
+	
+
+	 
+	
+
+}
+
+
+.container-fluid-2ndBox > .row > .col-lg-5 > p {
+
+	color:  white;
+	font-weight: 80px;
+	font-family: bold;
+	font-size: 20px;
+	
+	
+
+}
+
+
+.container-fluid-3rdBox {
+	background-color: white;
+	padding: 30px
+}
+
+
+
+.container-fluid-3rdBox > .row > .col-lg-5 > p {
+	
+	color:  black;
+	font-weight: 80px;
+	font-family: bold;
+	font-size: 20px;
+	margin-left: 90px;
+	margin-top: 25px;
+	
+}
+
+
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
 
 
