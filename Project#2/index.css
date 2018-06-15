@@ -36,7 +36,7 @@ body {
 	 padding-left: 100px;
 	color: rgba(255, 255, 255, 0.4);
 	font-family: bold;
-	transition: all 0.9s ease 0s;
+	transition: all 0.7s ease 0s;
 	
 }
 
@@ -62,7 +62,7 @@ body {
 .icon > a {
 	padding: 10px;
 	opacity: 0.4;
-	transition: all 0.9s ease 0s;
+	transition: all 0.7s ease 0s;
 }
 
 #navbar_element:hover > ul > li > .icon > a {
@@ -90,15 +90,66 @@ body {
 
 	background-color:#f4c20d;
 }
-/*
 
-*/
+#first_text {
+	font-family: Brush Script MT;
+	color:#33b5e5;
+	font-size: 80px; 
+	margin-left: 400px;
+	margin-top: 140px; 
+	text-shadow: 3px 3px #0099CC;
+	
+}
+
+
+
+
+
+ .col-lg-7 > a {
+	 background-color: #0288d1;
+	 padding: 10px 55px 10px 55px; 
+	 margin-left: 80px;
+ }
+
+ .col-lg-7 > a:hover {
+	background-color: #4fc3f7;
+}
+
+.col-lg-5 > a
+
+{
+	padding: 10px 55px 10px 55px; 
+	margin-top: 30px;
+	margin-left: 320px; 
+	background-color: white; 
+	color: #0288d1;
+}
+
+
+.col-lg-5 > a:hover {
+	background-color: #0288d1;
+}
+
+.container-fluid-3rdBox > .row > .col-lg-5 > a {
+	background-color: #0288d1;
+	color: white;
+} 
+
+.container-fluid-3rdBox > .row > .col-lg-5 > a:hover {
+	background-color: #4fc3f7;
+	
+} 
+
+
+
+
+
 
 
 .container-fluid-1stBox {
 
     
-	 margin-top: 666px;
+	 margin-top: 420px;
 	 padding: 30px
 	
 }
@@ -123,6 +174,7 @@ body {
 	
 
 }
+
 
 .container-fluid-2ndBox > .row {
 
@@ -169,11 +221,67 @@ body {
 }
 
 
+.container-fluid-4thBox {
+	padding: 40px;
+}
+
+
   .affix {
       top: 0;
       width: 100%;
       z-index: 9999 !important;
   }
+  
+ .text-uppercase {
+	 margin: 20px;
+	 
+ }
+ 
+.text-uppercase > h6 {
+	padding-left: 170px;
+	font-family: Bookman; 
+	font-size: 18px;
+}
+  
+.text-uppercase > hr {
+	
+    margin-left: 210px;
+	width: 20%;
+}
+  
+  
+.col-md-4.col-lg-5.col-xs-3.mx-auto.mb-md-0.mb-4 > p  {
+	 
+	 font-size: 17px;
+	 margin: 20px;
+	 margin-left: 150px;
+ } 
+  
+.col-md-2.col-lg-5.col-xs-2.mx-auto.mb-4 > p {
+		font-size: 14px;
+		
+		
+}
+
+.space  {
+	font-size: 14px;
+		
+
+}
+  
+.space > input {
+	width: 90%;
+	
+}
+
+  
+#submit {
+  cursor: pointer; 
+  color: white;  
+  width: 50%; 
+ margin-top: 5px;
+
+}
 
 
 
